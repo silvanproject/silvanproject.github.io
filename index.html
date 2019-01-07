@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	
+	<meta charset="utf-8">
+	<title>SИɅVΔΝ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+    
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+    
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="ru"> <![endif]-->
+	
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script>
+		
+		//PrettyPhoto
+		jQuery(document).ready(function() {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+		
+		//BlackAndWhite
+		$(window).load(function(){
+			$('.client_img').BlackAndWhite({
+				hoverEffect : true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath : false,
+				// for the images with a fluid width and height 
+				responsive:true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity:1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady:function(img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+		
+	</script>
+	
+</head>
+<body>
+
+<!-- PRELOADER -->
+<img id="preloader" src="images/preloader.gif" alt="" />
+<!-- //PRELOADER -->
+<div class="preloader_hide">
+
+	<!-- PAGE -->
+	<div id="page">
+	
+		<!-- HEADER -->
+		<header>
+			
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+			
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+					
+					<!-- LOGO -->
+					<div class="logo pull-left">
+						<a href="index.html" ><span class="b1">S</span><span class="b1">И</span><span class="b2">Ʌ</span><span class="b2">V</span><span class="b3">Δ</span><span class="b3">N</span></a>
+					</div><!-- //LOGO -->
+					
+					<!-- SEARCH FORM -->
+					<div id="search-form" class="pull-right">
+						<form method="get" action="#">
+							<input type="text" name="Поиск" value="Поиск" onFocus="if (this.value == 'Поиск') this.value = '';" onBlur="if (this.value == '') this.value = 'Поиск';" />
+						</form>
+					</div><!-- SEARCH FORM -->
+					
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							<ul>
+								<li class="first active scroll_btn"><a href="#home" >Главная</a></li>
+								<li class="scroll_btn"><a href="#about" >Наши приоритеты</a></li>
+								<li class="scroll_btn"><a href="#team" >Команда</a></li>
+								<li class="scroll_btn"><a href="#news" >О нас</a></li>
+								<li class="scroll_btn last"><a href="#contacts" >Связаться с нами</a></li>
+							</ul>
+						</nav>
+					</div><!-- //MENU -->
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+		
+		
+		<!-- HOME -->
+		<section id="home" class="padbot0">
+				
+			<!-- TOP SLIDER -->
+			<div class="flexslider top_slider">
+				<ul class="slides">
+					<li class="slide1">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay1 FromTop">SИɅVΔN</p>
+							<p class="title4 captionDelay1 FromTop">инновационная система для обнаружения и оповещения о лесных пожарах.</p>
+						</div>
+						<a class="slide_btn FromRight" href="https://drive.google.com/open?id=1gYaQShb5W2PZDbw1B4CDz-jHNiKdCaab" >Подробнее</a>
+					<li class="slide2">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay1 FromLeft">SИɅVΔN</p>
+							<p class="title4 captionDelay1 FromLeft">лесные пожары являются одной из главных экологических проблем в мире. </p>
+						</div>
+						<a class="slide_btn FromRight" href="https://drive.google.com/open?id=1gYaQShb5W2PZDbw1B4CDz-jHNiKdCaab" >Подробнее</a>
+					</li>
+					<li class="slide3">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay1 FromBottom">SИɅVΔN</p>
+							<p class="title4 captionDelay1 FromBottom">жизнь и экология - две важнейшие вещи. <br> наш проект охраняет их. </br></p>
+						</div>
+						<a class="slide_btn FromRight" href="https://drive.google.com/open?id=1gYaQShb5W2PZDbw1B4CDz-jHNiKdCaab" >Подробнее</a>
+						
+						<!-- VIDEO BACKGROUND -->
+						<a id="P2" class="player" data-property="{videoURL:'tDvBwPzJ7dY',containment:'.top_slider .slide3',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+						<!-- //VIDEO BACKGROUND -->
+					</li>
+				</ul>
+			</div>
+			<div id="carousel">
+				<ul class="slides">
+					<li><img src="images/slider/slide1_bg.jpg" alt="" /></li>
+					<li><img src="images/slider/slide2_bg.jpg" alt="" /></li>
+					<li><img src="images/slider/slide3_bg.jpg" alt="" /></li>
+				</ul>
+			</div><!-- //TOP SLIDER -->
+		</section><!-- //HOME -->
+		
+		
+		<!-- ABOUT -->
+		<section id="about">
+			
+			<!-- SERVICES -->
+			<div class="services_block padbot40" data-appear-top-offset="-100" data-animated="fadeInUp">
+				
+				<!-- CONTAINER -->
+				<div class="container">
+				
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Простота</b><br>Надежность</br></p>
+								<span>Наш продукт прост и надежен, как автомат Калашникова.</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Инновации</b><br>Автоматизация</br></p>
+								<span>Аппарат полностью автономен, это исключает человеческий фактор.</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Оптимизация</b><br>Оперативность</br></p>
+								<span>Наша система оптимизирована, это позволяет ей определять очаги возгарания максимально оперативно.</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Поддержка</b><br>Профессионализм</br></p>
+								<span>Наша команда всегда готова проконсультировать Вас.</span>
+							</a>
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //SERVICES -->
+		</section><!-- //PROJECTS -->
+		
+		
+		<!-- TEAM -->
+		<section id="team">
+		
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2><b>Наша</b> Команда</h2>
+				
+				<!-- ROW -->
+				<div class="row" data-appear-top-offset="-100" data-animated="fadeInUp">
+						
+					<!-- TEAM SLIDER -->
+					<div class="owl-demo owl-carousel team_slider">
+				
+						<!-- crewman1 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/1.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p>Александр Иванов</p>
+										<span>Программист-математик</span>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="https://vk.com/id285445981" ><i class="fa fa-vk"></i></a>
+									<a href="mailto:ias-2002@yandex.ru" ><i class="fa fa-envelope"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman1 -->
+						
+						<!-- crewman2 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/2.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p>Юдин Данила</p>
+										<span>Инженер-конструктор</span>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="https://vk.com/d.yudin2000" ><i class="fa fa-vk"></i></a>
+									<a href="mailto:digalsan31@gmail.com" ><i class="fa fa-envelope"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman1 -->
+						
+						<!-- crewman3 -->
+						<div class="item">
+							<div class="crewman_item">
+								<div class="crewman">
+									<img src="images/team/3.jpg" alt="" />
+								</div>
+								<div class="crewman_descr center">
+									<div class="crewman_descr_cont">
+										<p>Нгуен За Чонг</p>
+										<span>Программист-информатик</span>
+									</div>
+								</div>
+								<div class="crewman_social">
+									<a href="https://vk.com/boyfromasia" ><i class="fa fa-vk"></i></a>
+									<a href="mailto:mailto:blabla0128@mail.ru" ><i class="fa fa-envelope"></i></a>
+								</div>
+							</div>
+						</div><!-- crewman3 -->
+					</div><!-- TEAM SLIDER -->
+				</div><!-- //ROW -->
+			</div><!-- //CONTAINER -->
+						<!-- OUR CLIENTS -->
+			<div class="our_partner">
+			
+				<!-- CONTAINER -->
+				<div class="container" data-appear-top-offset="-100" data-animated="fadeInUp">
+					
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-4 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/1.jpg" alt="" />
+						</div>
+						<div class="col-lg-3 col-md-2 col-sm-2 ">
+							<br><p>Компания <b>Filamentarno!</b> предоставляют нам высококачественный пластик для печати беспилотников и являются нашими партнерами.<p></br>
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- CONTAINER -->
+			</div><!-- //OUR PARTNER -->
+		</section><!-- //TEAM -->
+		
+		
+		
+		<!-- NEWS -->
+		<section id="news">
+		
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2><b>О нас</b> говорят</h2>
+				
+				<!-- TESTIMONIALS -->
+				<div class="testimonials" data-appear-top-offset="-100" data-animated="fadeInUp">
+						
+					<!-- TESTIMONIALS SLIDER -->
+					<div class="owl-demo owl-carousel testim_slider">
+						
+						<!-- TESTIMONIAL1 -->
+						<div class="item">
+							<div class="testim_content">“Это перспективное направление которое необходимо развивать.”</div>
+							<div class="testim_author">—  Правительство <b>Республики Татарстан</b></div>
+						</div><!-- TESTIMONIAL1 -->
+						
+						<!-- TESTIMONIAL2 -->
+						<div class="item">
+							<div class="testim_content">“Интересно посмотреть что из этого в итоге выйдет! )”</div>
+							<div class="testim_author">—  Компания <b>Filamentarno!</b></div>
+						</div><!-- TESTIMONIAL2 -->
+					</div><!-- TESTIMONIALS SLIDER -->
+				</div><!-- //TESTIMONIALS -->
+			</div><!-- //CONTAINER -->
+		</section><!-- //NEWS -->
+	</div><!-- //PAGE -->
+	
+	<!-- CONTACTS -->
+	<section id="contacts">
+	</section><!-- //CONTACTS -->
+	
+	<!-- FOOTER -->
+	<footer>
+			
+		<!-- CONTAINER -->
+		<div class="container">
+			
+			<!-- ROW -->
+			<div class="row" data-appear-top-offset="-100" data-animated="fadeInUp">
+				
+				<div class="col-lg-4 col-md-4 col-sm-6 padbot30">
+					<h4><b>Наши</b> новости</h4>
+					<div class="recent_posts_small clearfix">
+						<div class="post_item_img_small">
+							<img src="images/blog/1.jpg" alt="" />
+						</div>
+						<div class="post_item_content_small">
+							<a class="title" href="" >Печатаем проект из пластика AEROTEX от компании Filamentarno! Получается очень неплохо, деталь невероятно легкая!</a>
+							<ul class="post_item_inf_small">
+								<li>26 Декабря 2018</li>
+							</ul>
+						</div>
+					</div>
+					<div class="recent_posts_small clearfix">
+						<div class="post_item_img_small">
+							<img src="images/blog/2.jpg" alt="" />
+						</div>
+						<div class="post_item_content_small">
+							<a class="title" href="" >Распечатали ещё парочку деталей пластиком от Filamentarno!</a>
+							<ul class="post_item_inf_small">
+								<li>27 Декабря 2018</li>
+							</ul>
+						</div>
+					</div>
+					<div class="recent_posts_small clearfix">
+						<div class="post_item_img_small">
+							<img src="images/blog/3.jpg" alt="" />
+						</div>
+						<div class="post_item_content_small">
+							<a class="title" href="" >Вот такой Wanhao нам подогнали.</a>
+							<ul class="post_item_inf_small">
+								<li>29 Декабря 2018</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
+					<h4><b>Наши</b> блоги</h4>
+					<p>Подписывайтесь на наш Instagram, чтобы всегда быть в курсе наших новостей и обновлений.</p>
+					<p>Если у вас остались какие-то вопросы пишите нам на почту или в Direct.</p>
+					<ul class="social">
+						<li><a href="" ><i class="fa fa-instagram"></i></a></li>
+						<li><a href="" ><i class="fa fa-envelope"></i></a></li>
+						<li><a href="https://yandex.ru/maps/43/kazan/?l=map&ll=49.189984%2C55.742149&mode=search&oid=1565777516&ol=biz&source=wizgeo&utm_medium=maps-desktop&utm_source=serp&z=17" ><i class="map_show fa fa-map-marker"></i></a></li>
+					</ul>
+				</div>
+				
+				<div class="respond_clear"></div>
+				
+				<div class="col-lg-4 col-md-4 padbot30">
+					<h4><b>Написать</b> нам</h4>
+					
+					<!-- CONTACT FORM -->
+					<div class="span9 contact_form">
+						<div id="note"></div>
+						<div id="fields">
+							<form id="contact-form-face" class="clearfix" action="">
+								<input type="text" name="имя" value="Имя" onFocus="if (this.value == 'Имя') this.value = '';" onBlur="if (this.value == '') this.value = 'Имя';" />
+								<textarea name="сообщение" onFocus="if (this.value == 'Сообщение') this.value = '';" onBlur="if (this.value == '') this.value = 'Сообщение';">Сообщение</textarea>
+								<input class="contact_btn" type="submit" value="Отправить сообщение" />
+							</form>
+						</div>
+					</div><!-- //CONTACT FORM -->
+				</div>
+			</div><!-- //ROW -->
+		</div><!-- //CONTAINER -->
+	</footer><!-- //FOOTER -->
+</div>
+</body>
+</html>
